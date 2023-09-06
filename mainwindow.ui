@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1281</width>
+    <height>970</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_img">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_file">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>850</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>File Path</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_kp">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>890</y>
+     <width>121</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>select key point</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_start">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>930</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_quit">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>930</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_countdown">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>890</y>
+     <width>93</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Count down</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
