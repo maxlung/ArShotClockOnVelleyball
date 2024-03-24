@@ -16,7 +16,7 @@ def load_images_from_folder(folder):
             Rlist.append(R)
     return Blist,Glist,Rlist 
 
-B,G,R=load_images_from_folder('img')
+B,G,R=load_images_from_folder('img/new')
 #B=np.array(B)
 #G=np.array(G)
 #R=np.array(R)

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1281</width>
-    <height>970</height>
+    <width>1119</width>
+    <height>188</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,8 +16,8 @@
   <widget class="QLabel" name="label_img">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>0</y>
+     <x>20</x>
+     <y>210</y>
      <width>1280</width>
      <height>720</height>
     </rect>
@@ -30,7 +30,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>850</y>
+     <y>30</y>
      <width>93</width>
      <height>28</height>
     </rect>
@@ -43,7 +43,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>890</y>
+     <y>60</y>
      <width>121</width>
      <height>28</height>
     </rect>
@@ -56,7 +56,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>930</y>
+     <y>90</y>
      <width>93</width>
      <height>28</height>
     </rect>
@@ -68,8 +68,8 @@
   <widget class="QPushButton" name="Button_quit">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>930</y>
+     <x>10</x>
+     <y>150</y>
      <width>93</width>
      <height>28</height>
     </rect>
@@ -81,14 +81,256 @@
   <widget class="QPushButton" name="Button_countdown">
    <property name="geometry">
     <rect>
-     <x>1130</x>
-     <y>890</y>
-     <width>93</width>
-     <height>51</height>
+     <x>1010</x>
+     <y>110</y>
+     <width>91</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
     <string>Count down</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_block">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>10</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Show Block</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_ncku">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>110</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>NCKU</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_logo">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>110</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TEAM LOGO</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_min">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>130</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_sec">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>130</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>130</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Min:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>130</y>
+     <width>31</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sec:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_A">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>40</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_B">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>40</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>40</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A_Score</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>40</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>B_Score</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_nameA">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>80</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>230</y>
+     <width>31</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sec:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_nameB">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>80</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>80</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A_name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>80</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>B_name</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_Adown">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>60</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A Down</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_Bdown">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>60</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>B Down</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_Bup">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>10</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>B UP</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_Aup">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>10</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A UP</string>
    </property>
   </widget>
  </widget>

@@ -13,6 +13,8 @@ class VideoGet:
         (self.grabbed, self.frame) = self.stream.read()
         self.stopped = False
         self.buffer=queue.Queue()
+    def getSource(self,src):
+        self.stream = cv2.VideoCapture(src)
     def start(self):    
         Thread(target=self.get, args=()).start()
         return self
